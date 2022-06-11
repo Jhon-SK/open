@@ -1,0 +1,295 @@
+/* cambios */
+
+p.text-call {
+        font-size: 14px;
+    background: #14C8BE;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    text-align: right;
+}
+
+strong.text-number-call {
+    font-size: 18px;
+    color: #ffffff;
+    background: #004481;
+    padding: 2px 20px;
+    border-radius: 20px;
+    font-weight: 400!important;
+}
+
+.m-header__call a {
+	position: relative;
+}
+
+.m-header__call .text-number-call object {
+	position: absolute;
+    left: -22px;
+    top: 14px;
+}
+
+
+
+.m-container-desk .m__form .form__body .form__submit input:checked {
+    background: url(../img/icons/checkbox-checked.svg) no-repeat 50% #fff;
+}
+.m-container .m__form .form__body .form__submit input {
+    background: #ffffff;
+}
+.m-container-desk .m__form .form__body .form__submit .form__tems label {
+    color: #FFFFFF;
+}
+.m-container-desk .m__form .form__title h2 {
+    color: #FFFFFF;
+}
+.m-container-desk .m__form .form__title h1 {
+    color: #FFFFFF;
+}
+
+.m-container-desk .m__form {
+    background: rgba(0, 68, 129, 0.5);
+}
+
+.main__banner {
+    background: url(../img/fondo/banner_background_new.jpg) no-repeat center center;
+    height: 520px;
+}
+
+
+
+.m__form .form__body .f__inputs, .m_form .m__inputs {
+	display: flex;
+    flex-direction: initial!important;
+}
+input[type=email] {
+    width: 276px;
+    height: 40px;
+    border: 1.5px solid #e6e6e6;
+    border-radius: 8px;
+    margin: 6px 0;
+    text-align: center;
+    outline: 0;
+    font-size: 12px;
+    font-family: 'BentonSans BBVA-Light';
+    color: #004481;
+}
+.m__form .form__body .f__inputs input[type=text], .m__form .form__body .f__inputs input[type=email] {
+    width: 180px!important;
+    margin: 10px;
+}
+
+.m__form .form__body .f__inputs .m__select {
+	width: 180px!important;
+	margin: 10px;
+}
+
+.m_form .m__inputs input[type=text], .m_form .m__inputs input[type=email] {
+    width: 200px!important;
+    margin: 10px;
+}
+
+.m_form .m__inputs .m__select {
+    width: 200px!important;
+    margin: 10px;
+}
+
+.modal .m__inputs {
+	display: flex;
+}
+
+.modal .m__inputs input[type=text], .modal .m__inputs input[type=email] {
+	width: 180px!important;
+    margin: 10px;
+}
+.modal .m__inputs .m__select {
+	width: 180px!important;
+    margin: 10px;
+}
+
+.m-container-desk .m__form {
+    width: 436px;
+    height: 410px;
+}
+
+.m-container-desk .m__form .form__title h2 {
+    font-size: 30px;
+}
+
+.m-container-desk .m__form .form__title p {
+	color: #ffffff;
+    background: #11BEF8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 60px;
+    font-size: 21px;
+    border-top-right-radius: 0px;
+}
+
+.m-container .m_form .form__title h4 {
+    text-align: left;
+    margin: 0;
+}
+
+.modal .modal-container .modal__body {
+    background: url(/public/img/fondo/background_modal_2.jpg) no-repeat center center;
+    width: 829px;
+}
+
+.modal .modal-container .modal__body .m__content {
+    max-width: 370px;
+}
+
+.modal .modal-container .modal__body .m__content .m__inputs {
+	position: relative;
+}
+
+.modal .modal-container .modal__body .m__content #select_giro {
+    right: 10px;
+    top: 50px;
+}
+.main__banner .blue-banner {
+	width: 100%;
+	background: #004481;
+	color: #ffffff;
+	padding: 15px;
+	text-align: center;
+	justify-content: center;
+}
+
+.m-container .m_form {
+    padding: 50px 0 4px 5px;
+    width: 450px;
+    position: relative;
+}
+
+footer strong.text-number-call {
+    color: #004481;
+    background: #d8f4ff;
+}
+
+footer .m-header__call {
+    position: relative;
+    top: -5px;
+}
+
+.m__select label {
+    position: relative;
+    top: -10px;
+}
+
+.m-container .m__form .form__body .form__submit .form__tems {
+    padding-left: 50px;
+}
+
+.m_form .m__inputs select {
+    right: 11px;
+    width: 200px;
+}
+
+.m__form .form__body .f__inputs select {
+    right: 25px;
+    width: 183px;
+    bottom: 27px;
+}
+
+span.info-text {
+    font-size: 29px;
+    color: #ffffff;
+    font-family: 'BentonSans BBVA-Light';
+}
+
+@media (max-width: 768px) {
+	.m-container-mobile {
+		display: block!important;
+	}
+	.m-container-desk {
+		display: none;
+	}
+	.main__banner {
+	    background: url(../img/fondo/banner_background_mob.jpg) no-repeat center center;
+        height: 678px!important;
+	}
+	.m__form .form__body .f__inputs input[type=text], .m__form .form__body .f__inputs input[type=email] {
+	    width: 145px!important;
+	    margin: 5px;
+	}
+	.m__form .form__body .f__inputs .m__select {
+		 width: 145px!important;
+	    margin: 5px;
+	}
+    .blue-banner {
+        display: none;
+    }
+    .m_form .m__inputs input[type=text], .m_form .m__inputs input[type=email], .m_form .m__inputs .m__select {
+        width: 145px!important;
+        margin: 5px;
+    }
+    .fr2 {
+        display: block!important;
+        width: 225px!important;
+        margin: auto!important;
+        padding: 22px 0 0 0!important;
+    }
+    
+    .fr1 {
+        display: none;
+    }
+
+    .m-container .fr2 .m__inputs {
+        flex-direction: column!important;
+    }
+
+    .m-container .fr2 .m__inputs input, .m-container .fr2 .m__inputs .m__select {
+        width: 100%!important;
+    }
+
+    .modal .modal-container .modal__body {
+        background: url(../img/fondo/background_modal_mob.jpg) no-repeat center center!important;
+    }
+    .modal .modal-container .modal__body .m__content {
+        max-width: 300px!important;
+        margin: 0 auto!important;
+    }
+    .modal .modal-container .modal__body .m__flex {
+        max-width: none;
+    }
+    footer .m-header__call {
+        display: none;
+    }
+    .nav .m-container .nav__options__mobile .options {
+        height: 310px;
+    }
+    .nav .m-container .nav__options__mobile .options .options__contents a {
+       padding-bottom: 50px;
+    }
+    .nav__options__mobile strong.text-number-call {
+        color: #004481;
+        background: #d8f4ff;
+    }
+    .select__mobile {
+        right: 26px;
+        width: 150px;
+        bottom: 37px;
+    }
+    .m__form .form__body .f__inputs select {
+        right: 26px;
+        width: 150px;
+        bottom: 37px;
+    }
+    br.salto {
+        display: block!important;
+    }
+    .m-container .m__form .form__body .form__submit .form__tems {
+        padding-left: 0;
+    }
+    .m-container .fr2 .m__inputs input, .m-container .fr2 .m__inputs .select__mobile {
+        right: 0px!important;
+        bottom: 0!important;
+    }
+    .modal .modal-container .modal__body .m__content .select__mobile {
+        right: 10px;
+        top: 50px;
+    }
+}

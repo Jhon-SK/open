@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Open Pay - Gracias</title>
+    <meta property="og:image" itemprop="image" content="public/img/icons/Opengraph.jpg">
+    <meta property="og:image:alt" content="public/img/icons/Opengraph.jpg" />
+    <meta name="image" content="public/img/icons/Opengraph.jpg">
+    <link rel="shortcut icon" href="public/img/icons/favicon.png">
+    <link rel="stylesheet" href="public/css/main.min.css">
+    <link rel="stylesheet" href="public/css/animate.css">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '4760342654070541');
+        fbq('track', 'PageView');
+        fbq('track', 'CompleteRegistration');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=4760342654070541&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 10892577669 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10892577669"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-10892577669');
+    </script>
+    <!-- Event snippet for OpenPay Conversiones conversion page -->
+    <script>
+        gtag('event', 'conversion', { 'send_to': 'AW-10892577669/Mx9KCKaWucADEIWX_sko' });
+    </script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="m-container">
+            <div class="nav__container__mobile">
+                <div onclick="MobMenu($(this))" class="mobile__menu">
+                    <div class="mobile__bar"></div>
+                    <div class="mobile__bar"></div>
+                    <div class="mobile__bar"></div>
+                </div>
+                <img src="./public/img/logos/nav_logo_mob.png" alt="">
+            </div>
+            <div class="nav__options__mobile">
+                <div class="options">
+                    <div class="options__contents">
+                        <div class="divisor">
+                            <a href="#">Productos</a>
+                        </div>
+                        <a href="#">Beneficios</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section_thanks">
+        <div class="th__content wow fadeInRight">
+            <div class="th__tittle">
+                <h5>¡Gracias!</h5>
+            </div>
+            <div class="th__body">
+                <h1>En breve uno de nuestros asesores se pondrá en contacto contigo</h1>
+            </div>
+            <button onclick="window.location.href = window.location.origin">
+                Regresar
+            </button>
+        </div>
+    </section>
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/wow.min.js"></script>
+    <script type="text/javascript" src="public/js/main.js"></script>
+</body>
